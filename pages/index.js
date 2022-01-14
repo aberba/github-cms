@@ -93,6 +93,10 @@ const Post = ({ post }) => {
                     padding: 1rem;
                     border-bottom: 1px solid #eeeeee;
                 }
+
+                img {
+                    width: 100%;
+                }
             `}</style>
         </div>
     );
