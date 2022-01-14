@@ -122,7 +122,7 @@ export default function Home({ posts = [] }) {
                 <h1>Welcome to my blog</h1>
 
                 {posts.map((post) => {
-                    return <Post post={post} />;
+                    return <Post key={post.slug} post={post} />;
                 })}
 
                 <style jsx>{`
